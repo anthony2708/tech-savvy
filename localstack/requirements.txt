@@ -21,7 +21,7 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 pbr==6.0.0
 plux==1.5.0
-psutil==5.9.6
+psutil==5.9.7
 pyaes==1.6.1
 pyasn1==0.5.1
 pycparser==2.21
