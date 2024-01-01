@@ -1,3 +1,45 @@
 # Tech-savvy
 
-A repository for all the tech-savvy people out there. This repository contains all the important links and resources for the learning process of Anthony.
+## Introduction
+
+A repository for all the tech-savvy people out there. This repository contains all the important links and resources for the learning process of Anthony. It also contains the source code for the Graduation Thesis of Tuan Anh Bui Le, a former student
+from the Faculty of Information Technology, Vietnam National University of Ho Chi Minh City - University of Science.
+
+## Project Structure
+
+```
+.
+└── tech-savvy/
+    ├── .github/
+    │   ├── ISSUE_TEMPLATE/ # All templates for issues
+    │   ├── workflows/ # All workflows for Github Actions
+    │   └── bitbucket-pipelines.yml # Bitbucket Pipelines configuration file for the Graduation Thesis
+    │   └── CODE_OF_CONDUCT.md # Code of Conduct file
+    │   └── CONTRIBUTING.md # Contributing file
+    │   └── dependabot.yml # Dependabot configuration file
+    ├── app/ # All files for the Graduation Thesis
+    │   ├── aws/ # All files for the webapp
+    │   ├── includes/ # All files for the states management
+    │   └── scripts/ # All files for the automation scripts
+    ├── assets/ # All files for references (not used for Graduation Thesis)
+    │   ├── else/
+    │   ├── THPTQG/
+    ├── .gitignore # Git ignore file
+    ├── codeguru/ # All files for the CodeGuru project
+    ├── coding/ # All files for the coding practice
+    ├── golang/ # All files for the Golang practice
+    ├── localstack/ # All files for the LocalStack project with Docker
+    ├── moodle/ # All files for the Moodle project with Docker
+    ├── LICENSE # License file
+    └── Readme.md # This file
+```
+
+## Notices
+
+Before working with this repository, please make sure that you have installed all the
+dependencies with latest versions. To check if anything is not working,
+run this script **at the root folder of this repository**:
+
+```bash
+bash app/scripts/dependencies.sh
+```
