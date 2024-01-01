@@ -17,7 +17,7 @@ from the Faculty of Information Technology, Vietnam National University of Ho Ch
     │   └── CODE_OF_CONDUCT.md # Code of Conduct file
     │   └── CONTRIBUTING.md # Contributing file
     │   └── dependabot.yml # Dependabot configuration file
-    ├── app/ # All files for the Graduation Thesis
+    ├── graduation/ # All files for the Graduation Thesis
     │   ├── aws/ # All files for the webapp
     │   ├── includes/ # All files for the states management
     │   └── scripts/ # All files for the automation scripts
@@ -25,11 +25,13 @@ from the Faculty of Information Technology, Vietnam National University of Ho Ch
     │   ├── else/
     │   ├── THPTQG/
     ├── .gitignore # Git ignore file
-    ├── codeguru/ # All files for the CodeGuru project
     ├── coding/ # All files for the coding practice
-    ├── golang/ # All files for the Golang practice
-    ├── localstack/ # All files for the LocalStack project with Docker
-    ├── moodle/ # All files for the Moodle project with Docker
+    │   ├── golang/ # All files for the Golang practice
+    │   ├── python/ # All files for the Python practice
+    |   ├── react-games/ # All files for the React 2048 game old webapp
+    ├── docker/ # All files for the Docker practice
+    │   ├── localstack/ # All files for the LocalStack project
+    │   ├── moodle/ # All files for the Moodle project
     ├── LICENSE # License file
     └── Readme.md # This file
 ```
