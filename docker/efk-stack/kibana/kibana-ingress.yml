@@ -6,6 +6,7 @@ metadata:
 spec:
   rules:
   - host: localhost
+  - port: 5601
     http:
       paths:
       - path: /
