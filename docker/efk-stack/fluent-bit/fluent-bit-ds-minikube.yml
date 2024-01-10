@@ -30,7 +30,7 @@ spec:
           - containerPort: 2020
         env:
         - name: FLUENT_ELASTICSEARCH_HOST
-          value: "elasticsearch" #YOUR ELASTISEARCH IP
+          value: "10.244.0.35" #YOUR ELASTISEARCH IP
         - name: FLUENT_ELASTICSEARCH_PORT
           value: "9200"
         volumeMounts:
