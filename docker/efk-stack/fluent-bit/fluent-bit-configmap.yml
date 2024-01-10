@@ -30,8 +30,8 @@ data:
     [OUTPUT]
         Name            es
         Match           *
-        Host            ${FLUENT_ELASTICSEARCH_HOST}
-        Port            ${FLUENT_ELASTICSEARCH_PORT}
+        Host            10.244.0.35
+        Port            9200
         Logstash_Format On
         Logstash_Prefix fluent-bit
         Retry_Limit     False
