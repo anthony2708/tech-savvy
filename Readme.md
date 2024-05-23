@@ -27,6 +27,7 @@ from the Faculty of Information Technology, Vietnam National University of Ho Ch
     ├── .gitignore # Git ignore file
     ├── coding/ # All files for the coding practice
     │   ├── golang/ # All files for the Golang practice
+    |   ├── interview/ # All files for the interview practice
     │   ├── python/ # All files for the Python practice
     |   ├── react-games/ # All files for the React 2048 game old webapp
     ├── docker/ # All files for the Docker practice
