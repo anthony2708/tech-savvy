@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "90days/**"
+      - "docs/**"
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
       - name: Build the site
         uses: withastro/action@v2
         with:
-          path: ./90days
+          path: ./docs
 
   deploy:
     needs: build
