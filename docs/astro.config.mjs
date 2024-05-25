@@ -36,9 +36,18 @@ export default defineConfig({
 		},
 		sidebar: [{
 			label: '90 ngày DevOps',
-			autogenerate: {
-				directory: 'guides'
-			}
+			items: [
+				{ label: 'Ngày 0 - Khởi đầu', link: '/guides/day0' },
+				{
+					label: 'Ngày 1 - Giới thiệu',
+					link: '/guides/day1',
+					badge: { text: 'Mới', variant: 'tip' },
+				},
+				{
+					label: 'Tại sao lại phải DevOps?',
+					autogenerate: { directory: 'guides/devops' }
+				}
+			]
 		}, {
 			label: 'Tài liệu tham khảo',
 			autogenerate: {
