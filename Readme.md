@@ -33,6 +33,7 @@ from the Faculty of Information Technology, Vietnam National University of Ho Ch
     ├── docker/ # All files for the Docker practice
     │   ├── localstack/ # All files for the LocalStack project
     │   ├── moodle/ # All files for the Moodle project
+    |── docs/ # All files for the 90days of DevOps campaign
     ├── LICENSE # License file
     └── Readme.md # This file
 ```
