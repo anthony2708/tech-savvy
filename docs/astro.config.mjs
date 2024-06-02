@@ -41,7 +41,6 @@ export default defineConfig({
 				{
 					label: 'Ngày 1 - Giới thiệu',
 					link: '/guides/day1',
-					badge: { text: 'Mới', variant: 'tip' },
 				},
 				{
 					label: 'Tại sao lại phải DevOps?',
