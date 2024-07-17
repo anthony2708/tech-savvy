@@ -181,3 +181,6 @@ app/aws/certs/ec2_key
 
 # Old files
 assets/old/
+
+# Venv files
+.venv/
