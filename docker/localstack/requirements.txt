@@ -7,7 +7,7 @@ click==8.1.7
 colorama==0.4.6
 cryptography==41.0.7
 dill==0.3.7
-dnslib==0.9.23
+dnslib==0.9.25
 dnspython==2.4.2
 ecdsa==0.18.0
 exceptiongroup==1.2.0
