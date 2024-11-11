@@ -1,0 +1,28 @@
+[[redirects]]
+    from = '/api/url'
+    to = '/.netlify/functions/url'
+    status = 200
+    force = true
+    headers = {X-From = "Netlify"}
+
+[[redirects]]
+    from = '/api/score'
+    to = '/.netlify/functions/score'
+    status = 200
+    force = true
+    headers = {X-From = "Netlify"}
+
+[[redirects]]
+    from = '/api/scoreboard'
+    to = 'https://api.viettimes.vn/api/diem-thi'
+    status = 200
+    force = true
+
+[functions]
+    directory = "api"
+
+[dev]
+    command = "yarn start"
+    targetPort = 3000
+    port = 8888
+    publish = "build"

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "210001",
+    "name": "Phạm Thị Trang Anh",
+    "progress": [10, 4.76, 0, 0, 0],
+    "test": [7.7, 10, 0, 0, 0],
+    "final": 32.46
+  },
+  {
+    "id": "210002",
+    "name": "Lê Hồ Minh Châu",
+    "progress": [10, 10, 8.35, 6.78, 9.58],
+    "test": [10, 10, 9, 7, 6],
+    "final": 86.71
+  },
+  {
+    "id": "210003",
+    "name": "Nguyễn Hoàng Bảo Trâm",
+    "progress": [1, 2.65, 2.47, 0, 0],
+    "test": [0, 0, 0, 0, 0],
+    "final": 6.12
+  },
+  {
+    "id": "220001",
+    "name": "Trần Thị Tú Linh",
+    "progress": [8, 7, 0, 0, 0],
+    "test": [8, 7, 5.5, 0, 0],
+    "final": 35.5
+  },
+  {
+    "id": "220002",
+    "name": "Nguyễn Lê Anh Minh",
+    "progress": [5, 5.25, 5.4, 4.6, 6.05],
+    "test": [5.25, 0, 0, 0, 0],
+    "final": 31.55
+  },
+  {
+    "id": "240001",
+    "name": "Vũ Thị Thanh Thúy",
+    "progress": [0, 0, 0, 0, 0],
+    "test": [2.48, 0, 0, 0, 0],
+    "final": 2.48
+  },
+  {
+    "id": "242229",
+    "name": "Lại Thị Đức Khánh",
+    "progress": [10, 10, 10, 0, 0],
+    "test": [7.2, 8.38, 7.94, 0, 0],
+    "final": 53.52
+  },
+  {
+    "id": "242603",
+    "name": "Nguyễn Hoàng Xuân Yến",
+    "progress": [7.03, 7.21, 0, 0, 0],
+    "test": [10, 3.3, 0, 0, 0],
+    "final": 27.54
+  }, 
+  {
+    "id": "244102",
+    "name": "Lê Anh Thư",
+    "progress": [3.72, 0, 0, 0, 0],
+    "test": [5, 0, 0, 0, 0],
+    "final": 8.72
+  }
+]

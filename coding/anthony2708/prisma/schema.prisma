@@ -1,0 +1,18 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "cockroachdb"
+    url      = env("DATABASE_URL")
+}
+
+model Widget {
+    id String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+}
+
+model URLShortener {
+    id       String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+    longUrl  String @unique @db.String(255)
+    shortUrl String @unique @db.String(255)
+}

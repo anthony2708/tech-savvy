@@ -1,0 +1,13 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import FirstPost from "./partials/_p1.mdx";
+import SecondPost from "./partials/_p2.mdx";
+
+<Tabs lazy>
+  <TabItem value="one" label="Resources">
+    <FirstPost />
+  </TabItem>
+  <TabItem value="two" label="Announcements" default>
+    <SecondPost />
+  </TabItem>
+</Tabs>

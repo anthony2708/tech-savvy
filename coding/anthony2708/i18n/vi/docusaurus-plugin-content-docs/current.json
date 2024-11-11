@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.📖 Hướng dẫn Cổng dịch vụ": {
+    "message": "📖 Hướng dẫn Cổng dịch vụ",
+    "description": "The label for category 📖 Hướng dẫn Cổng dịch vụ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.♾ 90 ngày cùng DevOps": {
+    "message": "♾ 90 ngày cùng DevOps",
+    "description": "The label for category ♾ 90 ngày cùng DevOps in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tài liệu tham khảo": {
+    "message": "Tài liệu tham khảo",
+    "description": "The label for category Tài liệu tham khảo in sidebar tutorialSidebar"
+  }
+}

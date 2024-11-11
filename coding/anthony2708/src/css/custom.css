@@ -1,0 +1,81 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* Normal */
+:root {
+  --ifm-color-primary: #bb2865;
+  --ifm-color-primary-dark: #a8245b;
+  --ifm-color-primary-darker: #9f2256;
+  --ifm-color-primary-darkest: #831c47;
+  --ifm-color-primary-light: #c42a6a;
+  --ifm-color-primary-lighter: #ce2c6f;
+  --ifm-color-primary-lightest: #d33275;
+  --ifm-code-font-size: 95%;
+}
+
+html[data-theme="dark"] {
+  --ifm-color-primary: #ffd84b;
+  --ifm-color-primary-dark: #ffd12a;
+  --ifm-color-primary-darker: #ffcd1a;
+  --ifm-color-primary-darkest: #e7b500;
+  --ifm-color-primary-light: #ffdf6c;
+  --ifm-color-primary-lighter: #ffe37c;
+  --ifm-color-primary-lightest: #ffedae;
+}
+
+/* State Funeral */
+
+/* :root {
+  --ifm-color-primary: #222222;
+  --ifm-color-primary-dark: #1f1f1f;
+  --ifm-color-primary-darker: #1d1d1d;
+  --ifm-color-primary-darkest: #181818;
+  --ifm-color-primary-light: #252525;
+  --ifm-color-primary-lighter: #272727;
+  --ifm-color-primary-lightest: #2c2c2c;
+  --ifm-code-font-size: 95%;
+}
+
+html[data-theme="dark"] {
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #e6e6e6;
+  --ifm-color-primary-darker: #d9d9d9;
+  --ifm-color-primary-darkest: #b3b3b3;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+} */
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Links */
+.header-rss-link:hover {
+  opacity: 0.6;
+}
+
+.header-rss-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z'/%3E%3C/svg%3E")
+    no-repeat;
+}
+
+html[data-theme="dark"] .header-rss-link:before {
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z'/%3E%3C/svg%3E")
+    no-repeat;
+}

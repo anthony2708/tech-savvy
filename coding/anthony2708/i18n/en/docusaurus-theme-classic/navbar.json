@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "BLTA",
+    "description": "The title in the navbar"
+  },
+  "item.label.Giới thiệu": {
+    "message": "About",
+    "description": "Navbar item with label Giới thiệu"
+  },
+  "logo.alt": {
+    "message": "Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Dịch vụ": {
+    "message": "Services",
+    "description": "Navbar item with label Dịch vụ"
+  },
+  "item.label.Station": {
+    "message": "Station",
+    "description": "Navbar item with label Station"
+  }
+}

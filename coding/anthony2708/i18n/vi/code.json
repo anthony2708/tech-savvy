@@ -1,0 +1,524 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Trang này đã bị lỗi.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Thử lại",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.NotFound.title": {
+    "message": "Không tìm thấy trang",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "Chúng tôi không thể tìm thấy những gì bạn đang tìm kiếm.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Vui lòng liên hệ với trang web đã dẫn bạn tới đây và thông báo cho họ biết rằng đường dẫn này bị hỏng.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "Ghi chú",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "Mẹo",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "Nguy hiểm",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "Thông tin",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "Cẩn thận",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Trở lại đầu trang",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Đóng",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.archive.title": {
+    "message": "Lưu trữ",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Lưu trữ",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Thanh điều hướng của trang danh sách bài viết",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Các bài mới hơn",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Các bài cũ hơn",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Thanh điều hướng của trang bài viết",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Bài mới hơn",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Bài cũ hơn",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} bài viết",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} được gắn thẻ \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Xem tất cả Thẻ",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Trang chủ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Chuyển đổi chế độ sáng và tối (hiện tại {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "chế độ tối",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "chế độ sáng",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Thanh điều hướng của trang tài liệu",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Trước",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Kế tiếp",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Đây là tài liệu chưa được phát hành chính thức của {siteTitle} phiên bản {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Đây là tài liệu của {siteTitle} {versionLabel}, hiện không còn được bảo trì.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Để xem các cập nhật mới nhất, vui lòng xem phiên bản {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "phiên bản mới nhất",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} tài liệu đã gắn thẻ",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} với \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Phiên bản: {versionLabel}"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Đường dẫn trực tiếp tới đề mục này",
+    "description": "Title for link to heading"
+  },
+  "theme.common.editThisPage": {
+    "message": "Sửa trang này",
+    "description": "The link label to edit the current page"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " vào {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " bởi {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Cập nhật lần cuối {atDate} bởi {byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Nhảy tới nội dung",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Phiên bản",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Thẻ:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Điều hướng các bài viết gần đây trên blog",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Đã sao chép",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Sao chép code vào bộ nhớ tạm",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Sao chép",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Chuyển đổi văn bản xuống dòng",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Ngôn ngữ",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Trên trang này",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Đọc tiếp",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Đọc thêm về {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} phút để đọc",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Thu gọn thanh bên",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Thu gọn thanh bên",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Trở lại menu chính",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Mở rộng thanh bên",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Mở rộng thanh bên",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Thẻ",
+    "description": "The title of the tag list page"
+  },
+  "homepage.button": {
+    "message": "90 ngày DevOps ♾"
+  },
+  "homepage.title": {
+    "message": "Trang chủ"
+  },
+  "homepage.desc": {
+    "message": "Anthony Bùi Lê Tuấn Anh"
+  },
+  "homepage.contact": {
+    "message": "Thông tin liên hệ"
+  },
+  "services.feature1.desc": {
+    "message": "Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn."
+  },
+  "services.feature2.desc": {
+    "message": "Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác."
+  },
+  "services.feature3.desc": {
+    "message": "Dịch vụ theo dõi điểm thi Tốt nghiệp THPT năm 2024, giúp bạn đưa ra quyết định chính xác nhất."
+  },
+  "services.feature4.desc": {
+    "message": "Dịch vụ dạy và học tiếng Anh trực tuyến, phục vụ nhu cầu của giáo viên và học viên."
+  },
+  "services.feature5.desc": {
+    "message": "Dịch vụ lưu trữ ảnh trực tuyến, giúp bạn dễ dàng lưu trữ những tấm ảnh tuyệt đẹp."
+  },
+  "services.feature6.desc": {
+    "message": "Dịch vụ cập nhật trạng thái trực tiếp các trang web thường xuyên truy cập."
+  },
+  "services.access": {
+    "message": "Truy cập"
+  },
+  "youtube.found": {
+    "message": "Tìm thấy video"
+  },
+  "youtube.version": {
+    "message": "Phiên bản"
+  },
+  "youtube.quality": {
+    "message": "Chất lượng hình ảnh"
+  },
+  "youtube.sound": {
+    "message": "Có/Không có tiếng?"
+  },
+  "youtube.link": {
+    "message": "Đường dẫn"
+  },
+  "youtube.download": {
+    "message": "🔽 Tải xuống"
+  },
+  "services.desc": {
+    "message": "Cổng dịch vụ tích hợp"
+  },
+  "services.subtitle": {
+    "message": "Cổng dịch vụ tích hợp"
+  },
+  "youtube.desc": {
+    "message": "Công cụ tải xuống video từ Youtube"
+  },
+  "youtube.subtitle": {
+    "message": "Công cụ tải xuống video từ Youtube"
+  },
+  "youtube.placeholder": {
+    "message": "Nhập địa chỉ video (ví dụ https://youtube.com)"
+  },
+  "youtube.submit": {
+    "message": "🔍 Tìm kiếm"
+  },
+  "url.result": {
+    "message": "Địa chỉ rút gọn"
+  },
+  "url.desc": {
+    "message": "Công cụ rút gọn địa chỉ URL"
+  },
+  "url.subtitle": {
+    "message": "Công cụ rút gọn địa chỉ URL"
+  },
+  "url.placeholder": {
+    "message": "Nhập địa chỉ URL (ví dụ https://google.com)"
+  },
+  "url.submit": {
+    "message": "🔍 Rút gọn"
+  },
+  "scoreboard.id": {
+    "message": "Số báo danh"
+  },
+  "scoreboard.math": {
+    "message": "Toán"
+  },
+  "scoreboard.literature": {
+    "message": "Ngữ văn"
+  },
+  "scoreboard.physics": {
+    "message": "Vật lý"
+  },
+  "scoreboard.chemistry": {
+    "message": "Hóa học"
+  },
+  "scoreboard.biology": {
+    "message": "Sinh học"
+  },
+  "scoreboard.history": {
+    "message": "Lịch sử"
+  },
+  "scoreboard.geography": {
+    "message": "Địa lý"
+  },
+  "scoreboard.civic": {
+    "message": "GDCD"
+  },
+  "scoreboard.foreign": {
+    "message": "Ngoại ngữ"
+  },
+  "scoreboard.langcode": {
+    "message": "Mã môn NN"
+  },
+  "scoreboard.nodata": {
+    "message": "Không có dữ liệu điểm thi"
+  },
+  "scoreboard.desc": {
+    "message": "Tra cứu điểm thi Tốt nghiệp THPT 2024"
+  },
+  "scoreboard.subtitle": {
+    "message": "Tra cứu điểm thi Tốt nghiệp THPT 2024"
+  },
+  "scoreboard.placeholder": {
+    "message": "Nhập số báo danh"
+  },
+  "scoreboard.submit": {
+    "message": "🔍 Tra cứu"
+  },
+  "scoreboard.note": {
+    "message": "Mã môn Ngoại ngữ kỳ thi Tốt nghiệp THPT 2024"
+  },
+  "scoreboard.english": {
+    "message": "Tiếng Anh"
+  },
+  "scoreboard.russian": {
+    "message": "Tiếng Nga"
+  },
+  "scoreboard.french": {
+    "message": "Tiếng Pháp"
+  },
+  "scoreboard.chinese": {
+    "message": "Tiếng Trung Quốc"
+  },
+  "scoreboard.german": {
+    "message": "Tiếng Đức"
+  },
+  "scoreboard.japanese": {
+    "message": "Tiếng Nhật"
+  },
+  "scoreboard.korean": {
+    "message": "Tiếng Hàn"
+  },
+  "scoreboard.analysis": {
+    "message": "Xem phân tích phổ điểm 📊"
+  },
+  "gallery.desc": {
+    "message": "Kho lưu trữ ảnh"
+  },
+  "gallery.title": {
+    "message": "Kho lưu trữ ảnh từ VNUHCM-ITUS"
+  },
+  "homepage.feature1.quote.title": {
+    "message": "Hữu xạ tự nhiên hương"
+  },
+  "homepage.feature1.quote.desc": {
+    "message": "Một người lạc quan, chăm chỉ và có trách nhiệm. Đam mê lập trình Web và Mạng máy tính. Thích nghe nhạc, chơi đá bóng và xem TV."
+  },
+  "homepage.feature3.network.title": {
+    "message": "CN Mạng Máy tính & Truyền thông"
+  },
+  "homepage.feature3.network.desc": {
+    "message": "Khoa Công nghệ thông tin, Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Thành phố Hồ Chí Minh (VNUHCM_US, 2019 - 2023)."
+  },
+  "homepage.feature4.english.title": {
+    "message": "Chuyên Tiếng Anh - Khóa 23"
+  },
+  "homepage.feature4.english.desc": {
+    "message": "Trường Trung học phổ thông Chuyên Hoàng Lê Kha - Tây Ninh (2016 - 2019). Nhận học bổng khuyến khích trong cả 3 năm học."
+  },
+  "homepage.feature2.job.title": {
+    "message": "Technical Support Engineer"
+  },
+  "homepage.feature2.job.desc": {
+    "message": "Chuyên viên hỗ trợ Kỹ thuật tại iTechwx Vietnam (2024). Chịu trách nhiệm về việc hỗ trợ khách hàng Microsoft trên phạm vi toàn cầu."
+  },
+  "gallery.expand": {
+    "message": "Xem trọn vẹn"
+  },
+  "theme.admonition.warning": {
+    "message": "Cảnh báo",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Mở rộng danh mục thanh bên có thể thu gọn '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Xếp gọn danh mục thanh bên có thể thu gọn '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} mục",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Không tìm thấy kết quả nào"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "Xem tất cả kết quả bên ngoài \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "Xem tất cả kết quả bên trong \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Xem tất cả kết quả được tìm thấy"
+  },
+  "theme.SearchBar.label": {
+    "message": "Tìm kiếm...",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Tìm kiếm theo tiêu đề: \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Tìm kiếm theo tiêu đề",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Mọi nơi"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Có {count} kết quả được tìm thấy",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Không tìm thấy kết quả nào",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Trang không công khai",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Trang này không được công khai. Công cụ tìm kiếm sẽ không đánh chỉ mục cho trang này và chỉ những người có liên kết mới có thể truy cập được trang.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Trang nháp",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Đây là một trang nháp. Trang này sẽ chỉ xuất hiện ở môi trường phát triển và bị loại bỏ khỏi môi trường vận hành.",
+    "description": "The draft content banner message"
+  }
+}

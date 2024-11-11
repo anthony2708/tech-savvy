@@ -2,8 +2,10 @@
 
 ## Introduction
 
-A repository for all the tech-savvy people out there. This repository contains all the important links and resources for the learning process of Anthony. It also contains the source code for the Graduation Thesis of Tuan Anh Bui Le, a former student
-from the Faculty of Information Technology, Vietnam National University of Ho Chi Minh City - University of Science.
+A repository for all the tech-savvy people out there. This repository contains all the important links and resources for the learning process of Anthony. It also contains the source code for:
+
+- Graduation Thesis of Tuan Anh Bui Le, a former student from the Faculty of Information Technology, Vietnam National University of Ho Chi Minh City - University of Science.
+- Official website of Tuan Anh Bui Le.
 
 ## Project Structure
 
@@ -44,5 +46,5 @@ dependencies with latest versions. To check if anything is not working,
 run this script **at the root folder of this repository**:
 
 ```bash
-bash app/scripts/dependencies.sh
+bash graduation/scripts/dependencies.sh
 ```

@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./app/aws/
+        working-directory: ./graduation/aws/
         shell: bash
     steps:
       # Checkout the repository
