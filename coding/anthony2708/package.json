@@ -20,7 +20,7 @@
     "@docusaurus/core": "^3.6.1",
     "@docusaurus/preset-classic": "^3.6.1",
     "@easyops-cn/docusaurus-search-local": "^0.45.0",
-    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
