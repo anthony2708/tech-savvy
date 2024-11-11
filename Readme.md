@@ -28,8 +28,8 @@ A repository for all the tech-savvy people out there. This repository contains a
     │   ├── THPTQG/
     ├── .gitignore # Git ignore file
     ├── coding/ # All files for the coding practice
+    |   ├── anthony2708/ # All files for the official website
     │   ├── golang/ # All files for the Golang practice
-    |   ├── interview/ # All files for the interview practice
     │   ├── python/ # All files for the Python practice
     |   ├── react-games/ # All files for the React 2048 game old webapp
     ├── docker/ # All files for the Docker practice

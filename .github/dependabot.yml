@@ -5,12 +5,6 @@
 
 version: 2
 updates:
-  - package-ecosystem: "gomod" # See documentation for possible values
-    directory: "coding/golang/" # Location of package manifests
-    schedule:
-      day: "sunday"
-      interval: "weekly"
-
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "docker/localstack/" # Location of package manifests
     schedule:
