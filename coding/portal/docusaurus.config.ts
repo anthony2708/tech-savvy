@@ -5,7 +5,7 @@ const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 
 const config: Config = {
-  title: "Anthony Bùi Lê Tuấn Anh",
+  title: "Portal - Anthony Bùi Lê Tuấn Anh",
   tagline: "❤ Hữu xạ tự nhiên hương ❤",
   url: "https://portal.builetuananh.name.vn",
   baseUrl: "/",
