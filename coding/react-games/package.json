@@ -41,7 +41,7 @@
     "@types/styled-components": "^5.1.34",
     "@typescript-eslint/eslint-plugin": "^5.12.0",
     "@typescript-eslint/parser": "^5.12.0",
-    "@vitejs/plugin-react": "^2.1.0",
+    "@vitejs/plugin-react": "^4.3.3",
     "eslint": "^8.25.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -54,7 +54,7 @@
     "http-server": "^14.1.1",
     "prettier": "^3.3.3",
     "typescript": "^5.7.2",
-    "vite": "^3.1.8",
+    "vite": "^5.4.11",
     "vite-plugin-pwa": "^0.21.0"
   }
 }
