@@ -16,7 +16,7 @@ httpcore==1.0.7
 idna==3.10
 localstack==3.0.2
 localstack-core==3.8.1
-localstack-ext==3.0.2
+localstack-ext==4.0.3
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pbr==6.1.0
