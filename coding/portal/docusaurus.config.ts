@@ -91,7 +91,7 @@ const config: Config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/favicon/station.png',
+            href: '/img/favicon/ET_Logo.png',
           },
           {
             tagName: 'link',
@@ -116,12 +116,12 @@ const config: Config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/img/favicon/station.png',
+            href: '/img/favicon/ET_Logo.png',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/img/favicon/station.png',
+            href: '/img/favicon/ET_Logo.png',
             color: 'rgb(255, 237, 174)',
           },
           {
