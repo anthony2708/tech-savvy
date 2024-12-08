@@ -446,10 +446,10 @@
     "message": "Trường Trung học phổ thông Chuyên Hoàng Lê Kha - Tây Ninh (2016 - 2019). Nhận học bổng khuyến khích trong cả 3 năm học."
   },
   "homepage.feature2.job.title": {
-    "message": "Technical Support Engineer"
+    "message": "IT Helpdesk Engineer"
   },
   "homepage.feature2.job.desc": {
-    "message": "Chuyên viên hỗ trợ Kỹ thuật tại iTechwx Vietnam (2024). Chịu trách nhiệm về việc hỗ trợ khách hàng Microsoft trên phạm vi toàn cầu."
+    "message": "Chuyên viên hỗ trợ CNTT tại Five Group (2024). Chịu trách nhiệm về việc hỗ trợ kỹ thuật về CNTT cho doanh nghiệp."
   },
   "gallery.expand": {
     "message": "Xem trọn vẹn"
@@ -520,5 +520,21 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "Đây là một trang nháp. Trang này sẽ chỉ xuất hiện ở môi trường phát triển và bị loại bỏ khỏi môi trường vận hành.",
     "description": "The draft content banner message"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Tác giả",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Xem tất cả tác giả",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Tác giả này chưa viết bài nào.",
+    "description": "The text for authors with 0 blog post"
   }
 }

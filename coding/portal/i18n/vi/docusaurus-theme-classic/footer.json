@@ -1,10 +1,10 @@
 {
   "link.item.label.Giới thiệu cá nhân": {
     "message": "Giới thiệu cá nhân",
-    "description": "The label of footer link with label=Giới thiệu cá nhân linking to /docs/intro"
+    "description": "The label of footer link with label=Giới thiệu cá nhân linking to https://linkedin.com/in/anthony2708"
   },
   "copyright": {
-    "message": "Copyright © 2024 Anthony Bùi Lê Tuấn Anh. Dựng với ❤ & <a href=\"https://docusaurus.io\" target=\"_blank\" rel=\"noopener noreferrer\">Docusaurus</a>.",
+    "message": "Copyright © 2025 Anthony Bùi Lê Tuấn Anh. Dựng với ❤ & <a href=\"https://docusaurus.io\" target=\"_blank\" rel=\"noopener noreferrer\">Docusaurus</a>.",
     "description": "The footer copyright"
   },
   "link.title.Trang chủ": {
@@ -13,7 +13,7 @@
   },
   "link.item.label.Tài liệu tham khảo": {
     "message": "Tài liệu tham khảo",
-    "description": "The label of footer link with label=Tài liệu tham khảo linking to /docs/resources"
+    "description": "The label of footer link with label=Tài liệu tham khảo linking to https://shorturl.at/kduuJ"
   },
   "link.title.Cổng dịch vụ": {
     "message": "Cổng dịch vụ",
@@ -21,7 +21,7 @@
   },
   "link.item.label.Collab Station": {
     "message": "Collab Station",
-    "description": "The label of footer link with label=Collab Station linking to https://station.builetuananh.name.vn"
+    "description": "The label of footer link with label=Collab Station linking to /station"
   },
   "link.item.label.URL Shortener": {
     "message": "URL Shortener",

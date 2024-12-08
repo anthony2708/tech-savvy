@@ -1,0 +1,27 @@
+{
+    "name": "Station",
+    "short_name": "Station",
+    "theme_color": "#ffd84b",
+    "background_color": "#424242",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./index.html",
+    "related_applications": [
+      {
+        "platform": "webapp",
+        "url": "https://portal.builetuananh.name.vn/manifest.json"
+      }
+    ],
+    "icons": [
+      {
+        "src": "img/favicon/ET_Logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/favicon/ET_Logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

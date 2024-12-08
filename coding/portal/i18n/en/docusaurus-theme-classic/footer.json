@@ -5,14 +5,14 @@
   },
   "link.item.label.Giới thiệu cá nhân": {
     "message": "About",
-    "description": "The label of footer link with label=Giới thiệu cá nhân linking to /docs/intro"
+    "description": "The label of footer link with label=Giới thiệu cá nhân linking to https://linkedin.com/in/anthony2708"
   },
   "link.item.label.Tài liệu tham khảo": {
     "message": "All Resources",
-    "description": "The label of footer link with label=Tài liệu tham khảo linking to /docs/resources"
+    "description": "The label of footer link with label=Tài liệu tham khảo linking to https://shorturl.at/kduuJ"
   },
   "copyright": {
-    "message": "Copyright © 2024 Anthony Bui Le Tuan Anh. Built with ❤ & <a href=\"https://docusaurus.io\" target=\"_blank\" rel=\"noopener noreferrer\">Docusaurus</a>.",
+    "message": "Copyright © 2025 Anthony Bui Le Tuan Anh. Built with ❤ & <a href=\"https://docusaurus.io\" target=\"_blank\" rel=\"noopener noreferrer\">Docusaurus</a>.",
     "description": "The footer copyright"
   },
   "link.title.Cổng dịch vụ": {
@@ -21,7 +21,7 @@
   },
   "link.item.label.Collab Station": {
     "message": "Collab Station",
-    "description": "The label of footer link with label=Collab Station linking to https://station.builetuananh.name.vn"
+    "description": "The label of footer link with label=Collab Station linking to /station"
   },
   "link.item.label.URL Shortener": {
     "message": "URL Shortener",

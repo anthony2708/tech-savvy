@@ -3,10 +3,6 @@
     "message": "BLTA",
     "description": "The title in the navbar"
   },
-  "item.label.Giới thiệu": {
-    "message": "Giới thiệu",
-    "description": "Navbar item with label Giới thiệu"
-  },
   "logo.alt": {
     "message": "Logo",
     "description": "The alt text of navbar logo"

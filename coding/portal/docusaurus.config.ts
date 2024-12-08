@@ -32,11 +32,37 @@ const config: Config = {
       "classic",
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: "./sidebars.js",
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          postsPerPage: 10,
+          blogSidebarCount: 10,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+            title: "Station",
+            description: "Khơi nguồn cảm hứng văn chương...",
+            copyright: `Copyright © ${new Date().getFullYear()} Anthony Bùi Lê Tuấn Anh.`,
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                // keep only the 5 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 5),
+                ...rest,
+              });
+            },
+          },
+          routeBasePath: '/station',
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+          blogTitle: 'Station',
+          blogDescription: 'Khơi nguồn cảm hứng văn chương...',
+        },
         theme: {
-          customCss: [require.resolve("./src/css/custom.css")],
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -44,15 +70,73 @@ const config: Config = {
 
   plugins: [
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
+      "@easyops-cn/docusaurus-search-local",
       {
         language: ["vi", "en"],
         hashed: true,
         searchResultLimits: 5,
         searchBarShortcutHint: false,
-        highlightSearchTermsOnTargetPage: true,
+        // highlightSearchTermsOnTargetPage: true,
       },
-    ],
+    ],[
+      '@docusaurus/plugin-pwa',
+      {
+        // debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/favicon/station.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(255, 237, 174)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/favicon/station.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/favicon/station.png',
+            color: 'rgb(255, 237, 174)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/favicon/favicon.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
+    ]
   ],
 
   themeConfig: {
@@ -69,13 +153,8 @@ const config: Config = {
           position: "right",
         },
         {
-          label: "Giới thiệu",
-          to: "/docs/intro",
-          position: "left",
-        },
-        {
           label: "Station",
-          href: "https://station.builetuananh.name.vn",
+          to: "/station",
           position: "left",
         },
         {
@@ -108,15 +187,15 @@ const config: Config = {
           items: [
             {
               label: "Giới thiệu cá nhân",
-              to: "/docs/intro",
+              href: "https://linkedin.com/in/anthony2708",
             },
             {
               label: "Collab Station",
-              href: "https://station.builetuananh.name.vn",
+              to: "/station"
             },
             {
               label: "Tài liệu tham khảo",
-              to: "/docs/resources",
+              href: "https://shorturl.at/kduuJ",
             },
           ],
         },

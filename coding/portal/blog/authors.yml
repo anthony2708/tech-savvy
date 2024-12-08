@@ -1,0 +1,56 @@
+# Hồi ký Hoàng chuyên
+anna:
+  name: Anna Trần Thụy Bình An
+  title: Đội hình Hồi ký Hoàng chuyên
+  image_url: ../../img/blog/anna.jpg
+  page: true
+  description: >
+    Là một con người luôn hoài niệm về những tháng ngày bé thơ, chưa bao giờ 
+    tớ ngừng nhớ thương Hoàng chuyên - ngôi trường cấp Ba của tớ - chưa bao giờ bỏ rơi 
+    Hoàng chuyên dẫu tớ đã không còn là học sinh ở đây nữa. Vì vậy, tớ mong muốn được 
+    sẻ chia những cung bậc cảm xúc về Hoàng chuyên đến mọi người, cũng như để được 
+    sống lại một lần nữa ở thời áo trắng ngây ngô.
+  socials: 
+    facebook: https://www.facebook.com/tran.thuy.binh.an.779857
+
+# Tản văn/Book Review
+latte:
+  name: Latte Huỳnh Thanh Nhàn
+  title: Đội hình Tản văn/Book Review
+  image_url: ../../img/blog/latte_ava.jpg
+  page: true
+  description: >
+    Mình là Latte, mình thích viết, việc viết là việc mình thường làm khi rảnh rỗi. 
+    Song song với việc viết, mình cũng thường xuyên đọc sách. Vì thế, mình đảm nhiệm 
+    vai trò review sách cho The Collab Team. Hi vọng bạn đọc sẽ chuộng đọc sách hơn 
+    phần nào qua những bài review của mình.
+  socials:
+    facebook: https://www.facebook.com/latte24th.nov
+
+jolie:
+  name: Jolie Nguyễn Ngọc Khánh Phương
+  title: Đội hình Tản văn/Book Review
+  image_url: ../../img/blog/jolie_ava.jpg
+  page: true
+  description: >
+    Là thành viên nhỏ tuổi nhất của Team, mình hiện đang là học sinh lớp Văn khóa 29 - Trường THPT Chuyên Hoàng Lê Kha. 
+    Và là một thần dân lớp Văn, cho nên... mình rất thích viết. Bên cạnh đó, rất thích đọc sách và nghe podcast.
+  socials: 
+    facebook: https://www.facebook.com/profile.php?id=100066615586116
+
+# Tech Blog
+anthony:
+  name: Anthony Bùi Lê Tuấn Anh
+  title: VNUHCM-ITUS Alumnus/Tech Blog
+  image_url: ../../img/blog/anthony.jpg
+  page: true
+  description: >
+    Một chuyên viên hỗ trợ Công nghệ thông tin cho doanh nghiệp nhưng yêu thích văn chương 
+    và chia sẻ những kinh nghiệm hữu ích về IT cho mọi người.
+  email: builetuananh2708@gmail.com
+  socials:
+    github: anthony2708
+    linkedin: anthony2708
+    facebook: https://facebook.com/buile.tuananh/
+
+

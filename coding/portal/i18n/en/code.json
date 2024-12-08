@@ -446,10 +446,10 @@
     "message": "Hoang Le Kha High School for the Gifted, Tay Ninh Province, Vietnam (2016 - 2019). Received Merit Scholarship for all 3 years."
   },
   "homepage.feature2.job.title": {
-    "message": "Technical Support Engineer"
+    "message": "IT Helpdesk Engineer"
   },
   "homepage.feature2.job.desc": {
-    "message": "Responsible for supporting Microsoft customers around the world at iTechwx Vietnam (Security and Compliance Team, 2024)."
+    "message": "Responsible for IT supporting The Five Group's users across Australia, Philippines and Vietnam (2024)."
   },
   "gallery.expand": {
     "message": "Watch full"
@@ -520,5 +520,21 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
     "description": "The draft content banner message"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View all authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
   }
 }
