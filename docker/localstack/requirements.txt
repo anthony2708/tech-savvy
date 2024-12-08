@@ -1,11 +1,11 @@
-anyio==4.6.2.post1
+anyio==4.7.0
 cachetools==5.5.0
 certifi==2024.8.30
 cffi==1.17.1
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
-cryptography==43.0.3
+cryptography==44.0.0
 dill==0.3.9
 dnslib==0.9.25
 dnspython==2.7.0
@@ -14,8 +14,8 @@ exceptiongroup==1.2.2
 h11==0.14.0
 httpcore==1.0.7
 idna==3.10
-localstack==3.0.2
-localstack-core==3.8.1
+localstack==4.0.3
+localstack-core==4.0.3
 localstack-ext==4.0.3
 markdown-it-py==3.0.0
 mdurl==0.1.2
@@ -24,7 +24,7 @@ plux==1.5.0
 psutil==6.1.0
 pyaes==1.6.1
 pyasn1==0.5.1
-pycparser==2.21
+pycparser==2.22
 Pygments==2.18.0
 python-dotenv==1.0.1
 python-jose==3.3.0
