@@ -5,7 +5,7 @@ cffi==1.17.1
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
-cryptography==43.0.3
+cryptography==44.0.0
 dill==0.3.9
 dnslib==0.9.25
 dnspython==2.7.0
