@@ -24,11 +24,8 @@ Select a service to use, then click on **Access**. The website will be redirecte
 
 From the Services Portal, users can access the guide by clicking on **Hướng dẫn - Guide**.
 
-There are currently six different services as follows:
+There are currently three different services as follows:
 
-1. **Youtube Downloader** ([User Guide](./guide/youtube))
-2. **URL Shortener** ([User Guide](./guide/shortener))
-3. **Scoreboard Review** ([User Guide](./guide/scoreboard))
-4. **English L&T** ([User Guide](./guide/english))
-5. **Images Gallery** ([User Guide](./guide/gallery))
-6. **Status Coverage** ([User Guide](./guide/status))
+1. **URL Shortener** ([User Guide](./guide/shortener))
+2. **English L&T** ([User Guide](./guide/english))
+3. **Images Gallery** ([User Guide](./guide/gallery))

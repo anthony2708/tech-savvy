@@ -19,11 +19,8 @@ Chọn dịch vụ muốn sử dụng, nhấn nút **Truy cập**. Hệ thống 
 
 Từ Cổng dịch vụ, người dùng có thể truy cập vào Hướng dẫn này ở nút **Hướng dẫn - Guide**.
 
-Hiện tại hệ thống có sáu dịch vụ khác nhau như sau:
+Hiện tại hệ thống có ba dịch vụ khác nhau như sau:
 
-1. Dịch vụ **Youtube Downloader** ([xem hướng dẫn tại đây](./guide/youtube))
-2. Dịch vụ **URL Shortener** ([xem hướng dẫn tại đây](./guide/shortener))
-3. Dịch vụ **Scoreboard Review** ([xem hướng dẫn tại đây](./guide/scoreboard))
-4. Dịch vụ **English L&T** ([xem hướng dẫn tại đây](./guide/english))
-5. Dịch vụ **Images Gallery** ([xem hướng dẫn tại đây](./guide/gallery))
-6. Dịch vụ **Status Coverage** ([xem hướng dẫn tại đây](./guide/status))
+1. Dịch vụ **URL Shortener** ([xem hướng dẫn tại đây](./guide/shortener))
+2. Dịch vụ **English L&T** ([xem hướng dẫn tại đây](./guide/english))
+3. Dịch vụ **Images Gallery** ([xem hướng dẫn tại đây](./guide/gallery))
