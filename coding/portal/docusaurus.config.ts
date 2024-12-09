@@ -153,6 +153,11 @@ const config: Config = {
           position: "right",
         },
         {
+          label: "Trang chủ",
+          href: "https://www.builetuananh.name.vn",
+          position: "left",
+        },
+        {
           label: "Station",
           to: "/station",
           position: "left",
@@ -197,6 +202,10 @@ const config: Config = {
               label: "Tài liệu tham khảo",
               href: "https://shorturl.at/kduuJ",
             },
+            {
+              label: "Về website chính thức",
+              href: "https://www.builetuananh.name.vn"
+            }
           ],
         },
         {
@@ -211,11 +220,11 @@ const config: Config = {
               to: "/services/courses",
             },
             {
-              label: "Dịch vụ khác",
-              to: "/services",
+              label: "Kho lưu trữ ảnh",
+              to: "/services/gallery",
             },
           ]
-        }
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Anthony Bùi Lê Tuấn Anh. Built with ❤ & <a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
     },

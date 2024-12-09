@@ -1,7 +1,7 @@
 ---
 id: guide
 title: 📖 Services Portal User Guide
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 There are several ways to access the Services Portal:

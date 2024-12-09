@@ -2,7 +2,7 @@
 id: shortener
 title: URL Shortener
 slug: /guide/shortener
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 ## Giới thiệu

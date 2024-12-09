@@ -275,61 +275,13 @@
     "message": "Contact Information"
   },
   "services.feature1.desc": {
-    "message": "A service for downloading videos from YouTube, in a simple and safe way."
-  },
-  "services.feature2.desc": {
     "message": "A service for shortening URLs, helping you share links with others."
   },
-  "services.feature3.desc": {
-    "message": "A service for checking the results of the 2024 High School Graduation Exam, helping you make the most accurate decision."
-  },
-  "services.feature4.desc": {
+  "services.feature2.desc": {
     "message": "A service for teaching and learning English online, serving the needs of teachers and students."
   },
-  "services.feature5.desc": {
+  "services.feature3.desc": {
     "message": "A service for storing photos online, helping you easily store beautiful photos."
-  },
-  "services.feature6.desc": {
-    "message": "A service for checking the status of all frequently-accessed websites."
-  },
-  "services.access": {
-    "message": "Access"
-  },
-  "youtube.found": {
-    "message": "Video Found"
-  },
-  "youtube.version": {
-    "message": "Version"
-  },
-  "youtube.quality": {
-    "message": "Video Quality"
-  },
-  "youtube.sound": {
-    "message": "Sound?"
-  },
-  "youtube.link": {
-    "message": "Link"
-  },
-  "youtube.download": {
-    "message": "🔽 Download"
-  },
-  "services.desc": {
-    "message": "Integrated gateway to all services"
-  },
-  "services.subtitle": {
-    "message": "Integrated gateway to all services"
-  },
-  "youtube.desc": {
-    "message": "A tool for downloading Youtube videos"
-  },
-  "youtube.subtitle": {
-    "message": "A tool for downloading Youtube videos"
-  },
-  "youtube.placeholder": {
-    "message": "Type the address (e.g. https://youtube.com)"
-  },
-  "youtube.submit": {
-    "message": "🔍 Search"
   },
   "url.result": {
     "message": "Shortened URL"
@@ -345,81 +297,6 @@
   },
   "url.submit": {
     "message": "🔍 Shorten"
-  },
-  "scoreboard.id": {
-    "message": "Candidate ID"
-  },
-  "scoreboard.math": {
-    "message": "Maths"
-  },
-  "scoreboard.literature": {
-    "message": "Literature"
-  },
-  "scoreboard.physics": {
-    "message": "Physics"
-  },
-  "scoreboard.chemistry": {
-    "message": "Chemistry"
-  },
-  "scoreboard.biology": {
-    "message": "Biology"
-  },
-  "scoreboard.history": {
-    "message": "History"
-  },
-  "scoreboard.geography": {
-    "message": "Geography"
-  },
-  "scoreboard.civic": {
-    "message": "Civic Education"
-  },
-  "scoreboard.foreign": {
-    "message": "Languages"
-  },
-  "scoreboard.langcode": {
-    "message": "Code"
-  },
-  "scoreboard.nodata": {
-    "message": "No data from the scoreboard."
-  },
-  "scoreboard.desc": {
-    "message": "Check the results of the 2024 High School Graduation Exam"
-  },
-  "scoreboard.subtitle": {
-    "message": "Check the results of the 2024 High School Graduation Exam"
-  },
-  "scoreboard.placeholder": {
-    "message": "Type the Candidate ID"
-  },
-  "scoreboard.submit": {
-    "message": "🔍 Search"
-  },
-  "scoreboard.note": {
-    "message": "Language Code for the 2024 High School Graduation Exam"
-  },
-  "scoreboard.english": {
-    "message": "English"
-  },
-  "scoreboard.russian": {
-    "message": "Russian"
-  },
-  "scoreboard.french": {
-    "message": "French"
-  },
-  "scoreboard.chinese": {
-    "message": "Chinese"
-  },
-  "scoreboard.german": {
-    "message": "German"
-  },
-  "scoreboard.japanese": {
-    "message": "Japanese"
-  },
-  "scoreboard.korean": {
-    "message": "Korean"
-  },
-  "scoreboard.analysis": {
-    "message": "View the scoreboard analysis 📊"
   },
   "gallery.desc": {
     "message": "Images gallery from VNUHCM-ITUS"
@@ -536,5 +413,14 @@
   "theme.blog.author.noPosts": {
     "message": "This author has not written any posts yet.",
     "description": "The text for authors with 0 blog post"
+  },
+  "services.access": {
+    "message": "Truy cập"
+  },
+  "services.desc": {
+    "message": "Cổng dịch vụ tích hợp"
+  },
+  "services.subtitle": {
+    "message": "Cổng dịch vụ tích hợp"
   }
 }

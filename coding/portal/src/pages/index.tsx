@@ -39,42 +39,19 @@ function HomepageHeader() {
             date;
         };
     }, []);
-    // const [dateState, setDateState] = useState(new Date());
-    // useEffect(() => {
-    //   const timer = setInterval(() => { setDateState(new Date()); }, 1000);
-    //   return () => { clearInterval(timer); };
-    // });
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
                 <h1 className="hero__title">
                     {
                         timeState
-                        // dateState.toLocaleTimeString('vi-VN', {
-                        //   hour12: false,
-                        //   hour: '2-digit',
-                        //   minute: '2-digit',
-                        //   second: '2-digit',
-                        // })
                     }
                 </h1>
                 <p className="hero__subtitle">
                     {
                         dateState
-                        // dateState.toLocaleDateString('vi-VN', {
-                        //   weekday: 'long',
-                        //   day: '2-digit',
-                        //   month: '2-digit',
-                        //   year: 'numeric',
-                        // })
                     } ({
                         engDateState
-                        // dateState.toLocaleDateString('en-US', {
-                        //   weekday: 'long',
-                        //   day: '2-digit',
-                        //   month: 'long',
-                        //   year: 'numeric',
-                        // })
                     })
                 </p>
                 <div className={styles.buttons}>
@@ -103,27 +80,6 @@ export default function Home(): JSX.Element {
             <HomepageHeader />
             <main>
                 <HomepageFeatures />
-                {/* <div className="text--center padding-horiz--md margin-horiz--lg">
-                    <p className={styles.special}>
-                        Hiện tại website đang trong quá trình bảo trì diện rộng từ <b>01/10 - 31/12/2024</b>. 
-                    </p>
-                    <h3>
-                        Quý vị có thể truy cập vào trang web <a href="https://90days.builetuananh.name.vn">này </a> 
-                        để tiếp tục theo dõi các bài viết mới nhất.
-                    </h3>
-                </div>
-                
-                <div className="text--center padding-horiz--md margin-horiz--lg">
-                    <p className={styles.special}>
-                        This website is currently under maintenance from <b>01/Oct - 31/Dec/2024</b>. 
-                    </p>
-                    
-                    <h3>
-                        To continue watching the latest posts, 
-                        visit <a href="https://90days.builetuananh.name.vn">this website</a>. 
-                        
-                    </h3>
-                </div> */}
                 <ContactFeatures />
             </main>
         </ Layout>

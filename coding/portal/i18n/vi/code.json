@@ -275,61 +275,22 @@
     "message": "Thông tin liên hệ"
   },
   "services.feature1.desc": {
-    "message": "Dịch vụ tải xuống các video từ YouTube, một cách đơn giản và an toàn."
-  },
-  "services.feature2.desc": {
     "message": "Dịch vụ rút gọn URL, giúp chia sẻ đường dẫn với người khác."
   },
-  "services.feature3.desc": {
-    "message": "Dịch vụ theo dõi điểm thi Tốt nghiệp THPT năm 2024, giúp bạn đưa ra quyết định chính xác nhất."
-  },
-  "services.feature4.desc": {
+  "services.feature2.desc": {
     "message": "Dịch vụ dạy và học tiếng Anh trực tuyến, phục vụ nhu cầu của giáo viên và học viên."
   },
-  "services.feature5.desc": {
+  "services.feature3.desc": {
     "message": "Dịch vụ lưu trữ ảnh trực tuyến, giúp bạn dễ dàng lưu trữ những tấm ảnh tuyệt đẹp."
-  },
-  "services.feature6.desc": {
-    "message": "Dịch vụ cập nhật trạng thái trực tiếp các trang web thường xuyên truy cập."
   },
   "services.access": {
     "message": "Truy cập"
-  },
-  "youtube.found": {
-    "message": "Tìm thấy video"
-  },
-  "youtube.version": {
-    "message": "Phiên bản"
-  },
-  "youtube.quality": {
-    "message": "Chất lượng hình ảnh"
-  },
-  "youtube.sound": {
-    "message": "Có/Không có tiếng?"
-  },
-  "youtube.link": {
-    "message": "Đường dẫn"
-  },
-  "youtube.download": {
-    "message": "🔽 Tải xuống"
   },
   "services.desc": {
     "message": "Cổng dịch vụ tích hợp"
   },
   "services.subtitle": {
     "message": "Cổng dịch vụ tích hợp"
-  },
-  "youtube.desc": {
-    "message": "Công cụ tải xuống video từ Youtube"
-  },
-  "youtube.subtitle": {
-    "message": "Công cụ tải xuống video từ Youtube"
-  },
-  "youtube.placeholder": {
-    "message": "Nhập địa chỉ video (ví dụ https://youtube.com)"
-  },
-  "youtube.submit": {
-    "message": "🔍 Tìm kiếm"
   },
   "url.result": {
     "message": "Địa chỉ rút gọn"
@@ -345,81 +306,6 @@
   },
   "url.submit": {
     "message": "🔍 Rút gọn"
-  },
-  "scoreboard.id": {
-    "message": "Số báo danh"
-  },
-  "scoreboard.math": {
-    "message": "Toán"
-  },
-  "scoreboard.literature": {
-    "message": "Ngữ văn"
-  },
-  "scoreboard.physics": {
-    "message": "Vật lý"
-  },
-  "scoreboard.chemistry": {
-    "message": "Hóa học"
-  },
-  "scoreboard.biology": {
-    "message": "Sinh học"
-  },
-  "scoreboard.history": {
-    "message": "Lịch sử"
-  },
-  "scoreboard.geography": {
-    "message": "Địa lý"
-  },
-  "scoreboard.civic": {
-    "message": "GDCD"
-  },
-  "scoreboard.foreign": {
-    "message": "Ngoại ngữ"
-  },
-  "scoreboard.langcode": {
-    "message": "Mã môn NN"
-  },
-  "scoreboard.nodata": {
-    "message": "Không có dữ liệu điểm thi"
-  },
-  "scoreboard.desc": {
-    "message": "Tra cứu điểm thi Tốt nghiệp THPT 2024"
-  },
-  "scoreboard.subtitle": {
-    "message": "Tra cứu điểm thi Tốt nghiệp THPT 2024"
-  },
-  "scoreboard.placeholder": {
-    "message": "Nhập số báo danh"
-  },
-  "scoreboard.submit": {
-    "message": "🔍 Tra cứu"
-  },
-  "scoreboard.note": {
-    "message": "Mã môn Ngoại ngữ kỳ thi Tốt nghiệp THPT 2024"
-  },
-  "scoreboard.english": {
-    "message": "Tiếng Anh"
-  },
-  "scoreboard.russian": {
-    "message": "Tiếng Nga"
-  },
-  "scoreboard.french": {
-    "message": "Tiếng Pháp"
-  },
-  "scoreboard.chinese": {
-    "message": "Tiếng Trung Quốc"
-  },
-  "scoreboard.german": {
-    "message": "Tiếng Đức"
-  },
-  "scoreboard.japanese": {
-    "message": "Tiếng Nhật"
-  },
-  "scoreboard.korean": {
-    "message": "Tiếng Hàn"
-  },
-  "scoreboard.analysis": {
-    "message": "Xem phân tích phổ điểm 📊"
   },
   "gallery.desc": {
     "message": "Kho lưu trữ ảnh"

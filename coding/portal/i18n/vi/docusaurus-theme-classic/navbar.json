@@ -14,5 +14,9 @@
   "item.label.Station": {
     "message": "Station",
     "description": "Navbar item with label Station"
+  },
+  "item.label.Trang chủ": {
+    "message": "Trang chủ",
+    "description": "Navbar item with label Trang chủ"
   }
 }

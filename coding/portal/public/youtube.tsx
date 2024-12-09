@@ -5,7 +5,7 @@ import clsx from "clsx";
 import styles from "../../css/index.module.css";
 import custom from "../../css/YoutubeFeatures.module.css";
 import Translate, { translate } from "@docusaurus/Translate";
-import YoutubeFeatures from "../../components/Services/YoutubeFeatures";
+import YoutubeFeatures from "../../../public/YoutubeFeatures";
 
 export default class Youtube extends Component<{}, { url: string, data: any }> {
     constructor(props: {} | Readonly<{}>) {

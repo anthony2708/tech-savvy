@@ -1,7 +1,7 @@
 ---
 id: guide
 title: 📖 Hướng dẫn Cổng dịch vụ
-sidebar_position: 3
+sidebar_position: 1
 slug: /guide
 ---
 

@@ -31,8 +31,12 @@
     "message": "English L&T",
     "description": "The label of footer link with label=English L&T linking to /services/courses"
   },
-  "link.item.label.Dịch vụ khác": {
-    "message": "Other services",
-    "description": "The label of footer link with label=Dịch vụ khác linking to /services"
+  "link.item.label.Về website chính thức": {
+    "message": "Back to Homepage",
+    "description": "The label of footer link with label=Về website chính thức linking to https://www.builetuananh.name.vn"
+  },
+  "link.item.label.Kho lưu trữ ảnh": {
+    "message": "Images Gallery",
+    "description": "The label of footer link with label=Kho lưu trữ ảnh linking to /services/gallery"
   }
 }
